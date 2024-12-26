@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .page1 {
+    position: relative; /* Use 'relative' if you're positioning children */
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between nav items */
+    align-items: center; /* Align items vertically */
+    background-color: #000;
+    color: white;
+    padding: 10px 20px; /* Add some padding for a better look */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px; /* Spacing between links */
+  }
+  
+  .nav-links a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glenn Pepito</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Reset and global styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    /* Main wrapper */
+    .main {
+      width: 100%;
+    }
+
+    /* Navbar styling */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background-color: #000; /* Black background */
+      color: #fff; /* White text */
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Navigation links */
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 400;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #f39c12; /* Gold on hover */
+    }
+
+    .nav-links a.active {
+      color: #f39c12;
+      font-weight: 600;
+      border-bottom: 2px solid #f39c12; /* Underline for active link */
+    }
+
+    /* Center Name styling */
+    .center-name {
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .center-name {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Main wrapper -->
+  <div class="main">
+    <div class="page1">
+      <!-- Header -->
+      <header>
+        <nav>
+          <!-- Left Links -->
+          <div class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+          </div>
+          <!-- Center Name -->
+          <div class="center-name">
+            Glenn Pepito
+          </div>
+          <!-- Right Links -->
+          <div class="nav-links">
+            <a href="#">Resume</a>
+            <a href="#">Project</a>
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+      </header>
+    </div>
+  </div>
+</body>
+</html>
+
